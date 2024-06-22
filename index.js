@@ -23,8 +23,8 @@ bot.on('message', (msg) => {
 
     // console.log(msg);
     if (text === "/start") {
-        bot.sendMessage(chatId, `Assalomu alaykum ${first_name}, bizni botimisga hush kelipsiz `);
-        bot.sendMessage(chatId, `${first_name}, Sizga kurslar kerak bosa /kurs, dep yuzing`);
+        bot.sendMessage(chatId, `Assalomu alaykum ${first_name}, bizni botimisga hush kelipsiz ✨`);
+        bot.sendMessage(chatId, `${first_name}, Sizga kurslar kerak bosa /kurs, dep yuzing ✨`);
     } else if (text === "/kurs") {
         bot.sendMessage(chatId, `Dollar = 12 612,70
 ` + `Rubli = 143,08
