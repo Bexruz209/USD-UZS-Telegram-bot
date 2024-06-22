@@ -1,0 +1,9 @@
+# Exported from Render on 2024-06-22T08:18:04Z
+services:
+- type: web
+  name: USD-UZS-Telegram-bot
+  runtime: static
+  repo: https://github.com/Bexruz209/USD-UZS-Telegram-bot
+  buildCommand: npm install
+  staticPublishPath: npm start
+version: "1"
